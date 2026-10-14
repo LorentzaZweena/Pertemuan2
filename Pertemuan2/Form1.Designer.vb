@@ -26,11 +26,9 @@ Partial Class Form1
         Label2 = New Label()
         Label3 = New Label()
         TextBox1 = New TextBox()
-        CheckBox1 = New CheckBox()
         RadioButton1 = New RadioButton()
         RadioButton2 = New RadioButton()
         CheckBox2 = New CheckBox()
-        CheckBox3 = New CheckBox()
         CheckBox4 = New CheckBox()
         Label4 = New Label()
         ComboBox1 = New ComboBox()
@@ -75,16 +73,6 @@ Partial Class Form1
         TextBox1.Size = New Size(306, 31)
         TextBox1.TabIndex = 3
         ' 
-        ' CheckBox1
-        ' 
-        CheckBox1.AutoSize = True
-        CheckBox1.Location = New Point(213, 257)
-        CheckBox1.Name = "CheckBox1"
-        CheckBox1.Size = New Size(116, 29)
-        CheckBox1.TabIndex = 4
-        CheckBox1.Text = "Membaca"
-        CheckBox1.UseVisualStyleBackColor = True
-        ' 
         ' RadioButton1
         ' 
         RadioButton1.AutoSize = True
@@ -117,16 +105,6 @@ Partial Class Form1
         CheckBox2.Text = "Menulis"
         CheckBox2.UseVisualStyleBackColor = True
         ' 
-        ' CheckBox3
-        ' 
-        CheckBox3.AutoSize = True
-        CheckBox3.Location = New Point(335, 257)
-        CheckBox3.Name = "CheckBox3"
-        CheckBox3.Size = New Size(97, 29)
-        CheckBox3.TabIndex = 8
-        CheckBox3.Text = "Tiduran"
-        CheckBox3.UseVisualStyleBackColor = True
-        ' 
         ' CheckBox4
         ' 
         CheckBox4.AutoSize = True
@@ -157,9 +135,9 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(213, 317)
+        Button1.Location = New Point(40, 283)
         Button1.Name = "Button1"
-        Button1.Size = New Size(306, 34)
+        Button1.Size = New Size(479, 34)
         Button1.TabIndex = 12
         Button1.Text = "Daftar"
         Button1.UseVisualStyleBackColor = True
@@ -207,11 +185,9 @@ Partial Class Form1
         Controls.Add(ComboBox1)
         Controls.Add(Label4)
         Controls.Add(CheckBox4)
-        Controls.Add(CheckBox3)
         Controls.Add(CheckBox2)
         Controls.Add(RadioButton2)
         Controls.Add(RadioButton1)
-        Controls.Add(CheckBox1)
         Controls.Add(TextBox1)
         Controls.Add(Label3)
         Controls.Add(Label2)
@@ -228,11 +204,9 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
     Friend WithEvents CheckBox4 As CheckBox
     Friend WithEvents Label4 As Label
     Friend WithEvents ComboBox1 As ComboBox

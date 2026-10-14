@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+    Dim db As New koneksi()
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
@@ -24,9 +25,7 @@
         End If
 
         Dim hobi As String = ""
-        If CheckBox1.Checked Then hobi &= "Membaca"
         If CheckBox2.Checked Then hobi &= "Menulis"
-        If CheckBox3.Checked Then hobi &= "Tiduran"
         If CheckBox4.Checked Then hobi &= "Olahraga"
 
         Dim kota As String = ComboBox1.Text
@@ -39,5 +38,9 @@
 
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
 
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        db.CekKoneksi() ' Memanggil metode untuk mengecek koneksi saat form dimuat
     End Sub
 End Class
